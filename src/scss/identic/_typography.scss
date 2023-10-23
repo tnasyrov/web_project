@@ -1,0 +1,44 @@
+.h1{
+    color: $black_main;
+    text-align: center;
+    font-size: 64px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 64px; /* 100% */
+    letter-spacing: -1.28px;
+}
+
+.paragraph{
+    color: $black_main;
+    text-align: center;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px; /* 150% */
+}
+
+.h2{
+    color: $black_main;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 64px; /* 133.333% */
+    letter-spacing: -0.96px;
+}
+
+.h3{
+    color: $black_main;
+    font-variant-numeric: lining-nums proportional-nums;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 24px; /* 100% */
+}
+
+.h4{
+    color: $black_main;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 24px; /* 120% */
+}

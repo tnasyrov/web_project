@@ -1,0 +1,41 @@
+.header{
+    padding: 38px 0px;
+    &__content{
+        display:flex;
+        justify-content: space-between;
+        align-items: center;
+        column-gap: 248px;
+    }
+    &__logo{
+        display: inline-flex;
+        height: 32px;
+        padding: 4px 8px;
+        justify-content: center;
+        align-items: center;
+        gap: 8px;
+        flex-shrink: 0;
+        border-radius: 8px;
+        border: 2px solid #000;
+
+    }
+    &__text-logo{
+        font-weight: 600;
+        text-transform: uppercase;
+
+    }
+    &__list{
+        display: inline-flex;
+        justify-content: flex-end;
+        align-items: flex-start;
+        gap: 32px;
+        list-style: none;
+    }
+
+    &__links{
+        text-decoration: none;
+
+    }
+    &__empty{
+        width: 100px;
+    }
+}
