@@ -1,8 +1,9 @@
 @import './identic/colors';
 @import './identic/typography';
 @import './identic/mixins';
-@import './blocks/promo.scss';
-@import './blocks/header';
+@import './blocks/_header';
+@import './blocks/_promo';
+@import './identic/btns';
 
 *{
     margin: 0;
