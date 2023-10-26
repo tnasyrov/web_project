@@ -1,0 +1,27 @@
+.gigachad{
+
+    
+    &__content{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: flex-end;
+        
+        }
+    &__img{
+        width: 400px;
+        height: 560px;
+        flex-shrink: 0;
+       }
+    
+    
+
+
+    
+    &__facts-column{
+        display: inline-flex;
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 16px;
+
+    }
+}
