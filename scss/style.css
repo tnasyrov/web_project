@@ -239,8 +239,8 @@
 
 .gigachad__content {
   display: flex;
-  flex-wrap: wrap;
   justify-content: flex-end;
+  flex-shrink: 1;
 }
 .gigachad__img {
   width: 400px;
